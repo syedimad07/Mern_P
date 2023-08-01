@@ -4,9 +4,45 @@
     width: 200px;
     border: 1px solid black;
 }
-div {
-    color: blanchedalmond;
-}
+
 #mhead {
     color: black;
+}
+li ul {
+    text-decoration: line-through;
+    padding: 10px;
+    text-align: center;
+    width: 100px;   
+}
+.tbl {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+.tbl thead {
+    background-color: aquamarine;
+    color: #290707;
+}
+.tbl tbody td {
+    border: 1px solid black;
+    text-align: center;
+}
+.div1 {
+    border: 1px solid #290707;
+    padding: 10px;
+    position: sticky;
+    top: 2%;
+    left: 30%;
+    width: 50%;
+    display: inline;
+    background: #456;
+    opacity: 0.4;
+    color: aliceblue
+}
+.div2 {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+    display:inline ;
 }
