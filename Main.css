@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: 1px;
+    box-shadow: 1px 1px;
+}
+.brand{
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-weight: 350;
+}
+.navigation{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 25px;
+}
+.navigation li{
+    display: inline;
+    font-weight: 250;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+}
+a:hover{
+   background-color: #000;
+   color: white; 
+}
