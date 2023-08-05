@@ -6,6 +6,7 @@ body{
 nav{
     border: 1px;
     box-shadow: 1px 1px;
+    height: 53px;
 }
 .brand{
     float: left;
@@ -19,7 +20,7 @@ nav{
     margin-top: 25px;
 }
 .navigation li{
-    display: inline;
+    display:inline;
     font-weight: 250;
 }
 a{
@@ -27,7 +28,21 @@ a{
     color: #000;
     padding: 3px;
 }
-a:hover{
+li a:hover{
    background-color: #000;
    color: white; 
+}
+.navbar{
+    float: left;
+}
+.navbar-actions{
+    margin-top: 25px;
+    float: right;
+    margin-right: 10px;
+}
+.navbar-actions a{
+    margin-left: 5px;
+}
+footer {
+    text-align: center;
 }
