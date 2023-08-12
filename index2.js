@@ -1,7 +1,6 @@
-var a=10
-var b=20
+var a=" qeezar";
+var b="Shaikh";
 
+var c= b + a;
 
-var c=a+b
-
-console.log("result is", c);
+console.log('Full Name;', c)
