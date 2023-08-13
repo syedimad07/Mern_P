@@ -21,6 +21,7 @@ console.log(agg)
 console.log(joiningdate)
 console.log(age)
 
+//Typeof Operator
 console.log(typeof studetname) //string
 console.log(typeof haspassed) //boolean
 console.log(typeof agg) //number
