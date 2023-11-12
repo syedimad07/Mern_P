@@ -5,11 +5,17 @@ function User(nm, cls, loc, active){
     this.class = cls;
     this.location = loc;
     this.isActive = active;
+
+    this.greet = function(){
+        console.log("Hello")
+    }
 }
 
 const user1 = new User("Syed I", "MernFullStack", "Udgir", "True");
 const user2 = new User("Adnan", "DBMS", "Osmanabad", "True");
 const user3 = new User("Zaid", "AiDevOp", "Pune", "False");
 const user4 = new User("Zishan", "JavaDeveloper", "Hyderabad", "True");
+
+user1.greet();
 
 console.log(user1, user2, user3, user4);
